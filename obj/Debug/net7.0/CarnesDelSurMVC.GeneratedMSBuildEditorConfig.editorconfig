@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CarnesDelSurMVC
+build_property.RootNamespace = CarnesDelSurMVC
+build_property.ProjectDir = D:\UAM Aprobadas\METOD. DE DESA. DE SOFTWARE I\Proyecto\Proyecto Programado - Grupo #3\CarnesDelSurMVC\CarnesDelSurMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\UAM Aprobadas\METOD. DE DESA. DE SOFTWARE I\Proyecto\Proyecto Programado - Grupo #3\CarnesDelSurMVC\CarnesDelSurMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/AdminOrdenes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlbmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/AdminOrdenes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlbmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/AdminOrdenes/ProductosMasVendidos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlbmVzXFByb2R1Y3Rvc01hc1ZlbmRpZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/AdminOrdenes/VentasPorMes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5PcmRlbmVzXFZlbnRhc1Bvck1lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Carrito/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Checkout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/ClienteOrdenes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZU9yZGVuZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/ClienteOrdenes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZU9yZGVuZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Contacto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Cuenta/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Cuenta/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Cuenta/Password.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Cuenta/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Cuenta/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Cuenta/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Productos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Productos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Tienda/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Tienda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGllbmRhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/UAM Aprobadas/METOD. DE DESA. DE SOFTWARE I/Proyecto/Proyecto Programado - Grupo \#3/CarnesDelSurMVC/CarnesDelSurMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7b4sa6y5ru

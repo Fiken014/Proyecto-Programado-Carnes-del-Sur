@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CarnesDelSurMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CarnesDelSurMVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\images\\hero.png",
+      "PackagePath": "staticwebassets\\images\\hero.png"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\images\\icon.png",
+      "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\20250423195601524.jpeg",
+      "PackagePath": "staticwebassets\\productos\\20250423195601524.jpeg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\AlitasPollo.jpg",
+      "PackagePath": "staticwebassets\\productos\\AlitasPollo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\BifeCerdo.jpg",
+      "PackagePath": "staticwebassets\\productos\\BifeCerdo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\ChoricetaParrillera.jpg",
+      "PackagePath": "staticwebassets\\productos\\ChoricetaParrillera.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\ChuletaAhumada.jpg",
+      "PackagePath": "staticwebassets\\productos\\ChuletaAhumada.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\CostillaDeCerdoAhumado.jpg",
+      "PackagePath": "staticwebassets\\productos\\CostillaDeCerdoAhumado.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\CostillaStLouisCerdo.jpg",
+      "PackagePath": "staticwebassets\\productos\\CostillaStLouisCerdo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\CostillaStLouisCordero.jpg",
+      "PackagePath": "staticwebassets\\productos\\CostillaStLouisCordero.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\FrenchRackCordero.jpg",
+      "PackagePath": "staticwebassets\\productos\\FrenchRackCordero.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\FuetCatalan.jpg",
+      "PackagePath": "staticwebassets\\productos\\FuetCatalan.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\JamonAhumado.jpg",
+      "PackagePath": "staticwebassets\\productos\\JamonAhumado.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\JamonIberico.jpg",
+      "PackagePath": "staticwebassets\\productos\\JamonIberico.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\LomitoCerdo.jpg",
+      "PackagePath": "staticwebassets\\productos\\LomitoCerdo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\LomoCerdo.jpg",
+      "PackagePath": "staticwebassets\\productos\\LomoCerdo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\LomoDeCerdoAhumado.jpg",
+      "PackagePath": "staticwebassets\\productos\\LomoDeCerdoAhumado.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\MignonRes.jpg",
+      "PackagePath": "staticwebassets\\productos\\MignonRes.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\MorcillaColombiana.jpg",
+      "PackagePath": "staticwebassets\\productos\\MorcillaColombiana.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\MusloEnteroPollo.jpg",
+      "PackagePath": "staticwebassets\\productos\\MusloEnteroPollo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\NewYorkRes.jpg",
+      "PackagePath": "staticwebassets\\productos\\NewYorkRes.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\PaletaDeshuesadaCordero.jpg",
+      "PackagePath": "staticwebassets\\productos\\PaletaDeshuesadaCordero.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\PechugaPollo.jpg",
+      "PackagePath": "staticwebassets\\productos\\PechugaPollo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\Pepperoni.jpg",
+      "PackagePath": "staticwebassets\\productos\\Pepperoni.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\PernilCerdo.jpg",
+      "PackagePath": "staticwebassets\\productos\\PernilCerdo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\PicanhaRes.jpg",
+      "PackagePath": "staticwebassets\\productos\\PicanhaRes.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\RibeyeDryAged30days.jpg",
+      "PackagePath": "staticwebassets\\productos\\RibeyeDryAged30days.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\RibeyeWagyuRes.jpg",
+      "PackagePath": "staticwebassets\\productos\\RibeyeWagyuRes.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\Salchichon.jpg",
+      "PackagePath": "staticwebassets\\productos\\Salchichon.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\SalmonAhumado.jpg",
+      "PackagePath": "staticwebassets\\productos\\SalmonAhumado.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\ShortRipsAhumadas.jpg",
+      "PackagePath": "staticwebassets\\productos\\ShortRipsAhumadas.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\ShortRipsCerdo.jpg",
+      "PackagePath": "staticwebassets\\productos\\ShortRipsCerdo.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\TboneDryAged4week.jpg",
+      "PackagePath": "staticwebassets\\productos\\TboneDryAged4week.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\TboneRes.jpg",
+      "PackagePath": "staticwebassets\\productos\\TboneRes.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\TenderloinDryAged5days.jpg",
+      "PackagePath": "staticwebassets\\productos\\TenderloinDryAged5days.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\TomahawkRes.jpg",
+      "PackagePath": "staticwebassets\\productos\\TomahawkRes.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\productos\\TournedoCordero.jpg",
+      "PackagePath": "staticwebassets\\productos\\TournedoCordero.jpg"
+    },
+    {
+      "Id": "D:\\UAM Aprobadas\\METOD. DE DESA. DE SOFTWARE I\\Proyecto\\Proyecto Programado - Grupo #3\\CarnesDelSurMVC\\CarnesDelSurMVC\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarnesDelSurMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.CarnesDelSurMVC.props",
+      "PackagePath": "build\\CarnesDelSurMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.CarnesDelSurMVC.props",
+      "PackagePath": "buildMultiTargeting\\CarnesDelSurMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.CarnesDelSurMVC.props",
+      "PackagePath": "buildTransitive\\CarnesDelSurMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
