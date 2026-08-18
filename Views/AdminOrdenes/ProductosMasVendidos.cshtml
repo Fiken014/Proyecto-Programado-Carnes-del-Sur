@@ -1,0 +1,46 @@
+﻿@model List<CarnesDelSurMVC.Models.ProductoMasVendido>
+
+@{
+    ViewData["Title"] = "Productos Más Vendidos";
+}
+
+<h2>Productos Más Vendidos</h2>
+
+<canvas id="productosChart"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var productos = @Html.Raw(Json.Serialize(Model.Select(p => p.Producto)));
+        var cantidades = @Html.Raw(Json.Serialize(Model.Select(p => p.CantidadVendida)));
+
+        console.log("Productos:", productos);
+        console.log("Cantidades:", cantidades);
+
+        const ctx = document.getElementById('productosChart').getContext('2d');
+
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: productos,
+                datasets: [{
+                    label: 'Cantidad Vendida',
+                    data: cantidades,
+                    backgroundColor: 'rgba(54, 162, 235, 0.5)',
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    });
+</script>
+

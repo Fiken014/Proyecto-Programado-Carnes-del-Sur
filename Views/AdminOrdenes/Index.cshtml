@@ -1,0 +1,105 @@
+﻿
+@{
+}
+
+
+<h3 class="text-center mb-4">Lista de Pedidos</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Cliente</th>
+            <th>Unidades</th>
+            <th>Total con IVA</th>
+            <th>Metodo de Pago</th>
+            <th>Estdo de Pago</th>
+            <th>Estado de la Orden</th>
+            <th>Fecha</th>
+            <th>Accion</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(Orden order in ViewBag.Ordenes)
+        {
+            int count = 0;
+            decimal total = 0;
+            foreach (OrdenItem item in order.Items)
+            {
+                count += item.Cantidad;
+                total += item.Cantidad * item.PrecioUnidad;
+            }
+
+
+            string paymentBadgeColor = "bg-danger";
+            if (order.EstadoPago == "pendiente")
+            {
+                paymentBadgeColor = "bg-warning text-dark";
+            }
+            else if (order.EstadoPago == "aceptado")
+            {
+                paymentBadgeColor = "bg-success";
+            }
+            else if (order.EstadoPago == "cancelado")
+            {
+                paymentBadgeColor = "bg-secondary";
+            }
+
+
+            string orderBadgeColor = "bg-danger";
+            if (order.OrdenStatus == "creada")
+            {
+                orderBadgeColor = "bg-warning text-dark";
+            }
+            else if (order.OrdenStatus == "aceptada")
+            {
+                orderBadgeColor = "bg-success";
+            }
+            else if (order.OrdenStatus == "cancelada")
+            {
+                orderBadgeColor = "bg-secondary";
+            }
+            else if (order.OrdenStatus == "enviada")
+            {
+                orderBadgeColor = "bg-primary";
+            }
+            else if (order.OrdenStatus == "entregada")
+            {
+                orderBadgeColor = "bg-success";
+            }
+
+
+            <tr>
+                <td>@order.Id</td>
+                <td>@(order.Cliente.Nombre + " " + order.Cliente.Apellido)</td>
+                <td>@count</td>
+                <td>₡@(total + order.TarifaEnvio + (total * 0.13m))</td>
+                <td>@order.MetodoPago</td>
+                <td><span class="badge rounded-pill @paymentBadgeColor">@order.EstadoPago</span></td>
+                <td><span class="badge rounded-pill @orderBadgeColor">@order.OrdenStatus</span></td>
+                <td>@order.CreadoEn.ToString("MM/dd/yyyy")</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-controller="AdminOrdenes" asp-action="Details"
+                        asp-route-id="@order.Id">Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            string active = "";
+            if (i == ViewBag.PageIndex) active = "active";
+
+            <li class="page-item @active">
+                <a class="page-link" asp-route-pageIndex=@i>@i</a>
+            </li>
+        }
+    </ul>
+</nav>

@@ -1,0 +1,38 @@
+﻿@model List<CarnesDelSurMVC.Models.VentasPorMes>
+@{
+    ViewData["Title"] = "Ventas por Mes";
+}
+
+<h2>Ventas netas por Mes</h2>
+
+<canvas id="ventasChart" width="800" height="400"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const labels = @Html.Raw(Json.Serialize(Model.Select(v => v.Mes)));
+    const data = @Html.Raw(Json.Serialize(Model.Select(v => v.TotalVentas)));
+
+    const ctx = document.getElementById('ventasChart').getContext('2d');
+    const ventasChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Ventas por mes (₡)',
+                data: data,
+                fill: false,
+                borderColor: 'blue',
+                tension: 0.3
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>

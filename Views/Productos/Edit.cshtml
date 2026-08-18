@@ -1,0 +1,101 @@
+﻿@model ProductoDto
+@{
+}
+
+
+<div class="row">
+    <div class="col-md-8 mx-auto rounded border p-3">
+        <h2 class="text-center mb-5">Editar Producto</h2>
+
+
+        <form method="post" enctype="multipart/form-data">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Id</label>
+                <div class="col-sm-8">
+                    <input class="form-control-plaintext" readonly value="@ViewData["ProductoId"]">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Nombre</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Nombre">
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Marca</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Marca">
+                    <span asp-validation-for="Marca" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Categoria</label>
+                <div class="col-sm-8">
+                    <select class="form-select" asp-for="Categoria">
+                        <option value='Cortes Ahumadas Premium'>Cortes Ahumadas Premium</option>
+                        <option value='Cortes de Aves Premium'>Cortes de Aves Premium</option>
+                        <option value='Cortes de Cerdo Premium'>Cortes de Cerdo Premium</option>
+                        <option value='Cortes de Cordero Premium'>Cortes de Cordero Premium</option>
+                        <option value='Cortes de Res Premium'>Cortes de Res Premium</option>
+                        <option value='Embutidos Premium'>Embutidos Premium</option>
+                        <option value='Cortes Madurados Premium'>Cortes Madurados Premium</option>
+                        <option value='Otros'>Otros</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Precio</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Precio">
+                    <span asp-validation-for="Precio" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Descripcion</label>
+                <div class="col-sm-8">
+                    <textarea class="form-control" asp-for="Descripcion"></textarea>
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="offset-sm-4 col-sm-8">
+                    <img src="/productos/@ViewData["ImageFileName"]" width="150">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Imagen del Producto</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="ImageFile">
+                    <span asp-validation-for="ImageFile" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Creado el</label>
+                <div class="col-sm-8">
+                    <input class="form-control-plaintext" readonly value="@ViewData["CreadoEn"]">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Editar</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-primary" asp-controller="Productos" asp-action="Index" role="button">
+                        Cancelar
+                    </a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

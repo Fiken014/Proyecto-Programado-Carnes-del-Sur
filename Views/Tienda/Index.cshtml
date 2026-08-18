@@ -1,0 +1,85 @@
+﻿@model StoreSearchModel
+@{
+}
+
+<h2 class="pb-4 text-center">Productos</h2>
+
+
+<form class="row g-3 mb-3">
+    <div class="col-lg-2 col-md-4">
+        <select class="form-select" name="marca" asp-for="Marca" onchange="this.form.submit()">
+            <option value="">Todas las Marcas</option>
+            <option value="Carnes del Sur">Carnes del Sur</option>
+            <option value="Bravio">Bravio</option>
+            <option value="Trader Joes">Trader Joes</option>
+            <option value="Schauls Signature Gourmet">Schauls Signature Gourmet</option>
+            <option value="Premium Wagyu">Premium Wagyu</option>
+            <option value="Chicago Steak Company">Chicago Steak Company</option>
+            <option value="Cal Rovira">Cal Rovira</option>
+            <option value="Hormel">Hormel</option>
+            <option value="Sierra Palonera">Sierra Palonera</option>
+            <option value="Greek Butcher">Greek Butcher</option>
+        </select>
+    </div>
+    <div class="col-lg-2 col-md-4">
+        <select class="form-select" name="categoria" asp-for="Categoria" onchange="this.form.submit()">
+            <option value="">Todas las Categorias</option>
+            <option value='Cortes Ahumadas Premium'>Cortes Ahumadas Premium</option>
+            <option value='Cortes de Aves Premium'>Cortes de Aves Premium</option>
+            <option value='Cortes de Cerdo Premium'>Cortes de Cerdo Premium</option>
+            <option value='Cortes de Cordero Premium'>Cortes de Cordero Premium</option>
+            <option value='Cortes de Res Premium'>Cortes de Res Premium</option>
+            <option value='Embutidos Premium'>Embutidos Premium</option>
+            <option value='Cortes Madurados Premium'>Cortes Madurados Premium</option>
+            <option value='Otros'>Otros</option>
+        </select>
+    </div>
+    <div class="col-lg-2 col-md-4">
+        <select class="form-select" name="sort" asp-for="Sort" onchange="this.form.submit()">
+            <option value="newest">Ordenar por mas nuevo</option>
+            <option value="price_asc">Precio: Bajo a Alto</option>
+            <option value="price_desc">Precio: Alto a Bajo</option>
+        </select>
+    </div>
+    <div class="col-lg-6 col-md-12 d-flex">
+        <input class="form-control me-2" name="search" asp-for="Search" placeholder="Buscar por Nombre">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </div>
+</form>
+
+<div class="row mb-5 g-3">
+    @foreach (var producto in ViewBag.Productos)
+    {
+        <div class="col-lg-3 col-md-6">
+            <div class="rounded border shadow p-3 text-center h-100">
+                <img src="/productos/@producto.ImageFileName" class="img-fluid" alt="..."
+                 style="height: 180px; object-fit: contain" />
+                <hr />
+                <h5 class="py-2">@producto.Nombre</h5>
+                <p>
+                    Marca: @producto.Marca, Categoria: @producto.Categoria
+                </p>
+                <h4 class="mb-3">₡@(producto.Precio)</h4>
+                <a class="btn btn-primary btn-sm mb-2" asp-controller="Tienda" 
+                            asp-action="Details" asp-route-id="@producto.Id" role="button">Detalle</a>
+                <button type="button" class="btn btn-warning btn-sm mb-2" onclick="addToCart(this, @producto.Id)">
+                    Agregar al Carrito <i class="bi bi-cart4"></i>
+                </button>
+            </div>
+        </div>
+    }
+</div>
+
+
+<nav>
+    <ul class="pagination">
+        @for(int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            string active = "";
+            if (i == ViewBag.PageIndex) active = "active";
+            <li class="page-item @active"><a class="page-link" asp-route-pageIndex="@i"
+                asp-route-search="@Model.Search" asp-route-brand="@Model.Marca" 
+               asp-route-category="@Model.Categoria" asp-route-sort="@Model.Sort">@i</a></li>
+        }
+    </ul>
+</nav>

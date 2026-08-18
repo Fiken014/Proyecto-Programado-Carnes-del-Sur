@@ -1,0 +1,82 @@
+﻿@model RegisterDto
+@{
+}
+
+<div class="row">
+    <div class="col-lg-6 mx-auto rounded border p-4">
+        <h2 class="text-center mb-3">Formulario de Registro</h2>
+        <hr />
+
+        <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+        <form method="post">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Nombre*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Nombre">
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Apellido*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Apellido">
+                    <span asp-validation-for="Apellido" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Email*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Email">
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Numero de Telefono</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="NumTelefono">
+                    <span asp-validation-for="NumTelefono" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Direccion*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Direccion">
+                    <span asp-validation-for="Direccion" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Contraseña*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" type="password" asp-for="Contrasena">
+                    <span asp-validation-for="Contrasena" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Confirmar Contraseña*</label>
+                <div class="col-sm-8">
+                    <input class="form-control" type="password" asp-for="ConfirmContrasena">
+                    <span asp-validation-for="ConfirmContrasena" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row mb-3">
+                <div class="offset-sm-4 col-sm-4 d-grid">
+                    <button type="submit" class="btn btn-primary">Registrarme</button>
+                </div>
+                <div class="col-sm-4 d-grid">
+                    <a class="btn btn-outline-primary" asp-controller="Home" asp-action="Index" role="button">
+                        Cancelar
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

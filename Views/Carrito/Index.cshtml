@@ -1,0 +1,159 @@
+﻿@model CheckoutDto
+@{
+}
+
+<div class="row border rounded-3">
+    <div class="col-md-8 p-3">
+        <h4>Carrito de compras</h4>
+        <hr />
+
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <div class="alert alert-warning alert-dismissible fade show mt-4" role="alert">
+                <strong>@ViewBag.ErrorMessage</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+            </div>
+        }
+
+        <table class="table align-middle">
+            <tbody>
+                @foreach (var item in ViewBag.CartItems)
+                {
+                    <tr>
+                        <td>
+                            <img src="/productos/@item.Producto.ImageFileName" width="100" class="rounded" alt="...">
+                        </td>
+                        <td>
+                            <h4>@item.Producto.Nombre</h4>
+                            <p>
+                                Marca: @item.Producto.Marca<br>
+                                Categoria: @item.Producto.Categoria<br>
+                                Precio: ₡@(item.Producto.Precio)
+                            </p>
+                        </td>
+                        <td style="white-space:nowrap">
+                            <button type="button" class="btn btn-outline-secondary btn-sm"
+                                    onclick="decrease(@item.Producto.Id)">
+                                -
+                            </button>
+                            <span class="border rounded-3 p-2 m-1">@item.Cantidad</span>
+                            <button type="button" class="btn btn-outline-secondary btn-sm"
+                                    onclick="increase(@item.Producto.Id)">
+                                +
+                            </button>
+                        </td>
+                        <td>₡@(item.PrecioUnidad * item.Cantidad)</td>
+                        <td>
+                            <i class="bi bi-trash text-danger h4" style="cursor: pointer" onclick="remove(@item.Producto.Id)"></i>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-4">
+        <div class="text-white rounded my-2 p-3" style="background-color: #010101;">
+            <h4>Resumen del pedido</h4>
+            <hr />
+
+            @using Microsoft.AspNetCore.Identity
+            @inject SignInManager<ApplicationUser> SignInManager
+
+            @if (!SignInManager.IsSignedIn(User))
+            {
+                <div class="row">
+                    <div class="col">
+                        <p>Subtotal:</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-end">₡@(ViewBag.Subtotal)</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col d-grid">
+                        <a class="btn btn-light" asp-controller="Cuenta" asp-action="Register">Registrarme</a>
+                    </div>
+                    <div class="col d-grid">
+                        <a class="btn btn-outline-light" asp-controller="Cuenta" asp-action="Login">Iniciar Sesión</a>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <form method="post" onsubmit="return prepararDireccion();">
+                    <div class="mb-3">
+                        <label for="direccionEntrega">Dirección de entrega</label>
+                        <select id="direccionEntrega" class="form-control" onchange="actualizarEnvio()">
+                            <option value="">Seleccione una opción</option>
+                            <option value="Retiro en el local">Retiro en el local</option>
+                            <option value="Servicio de mensajería">Servicio de mensajería</option>
+                        </select>
+
+                        <input type="hidden" id="direccionEntregaHidden" name="DireccionEntrega" />
+                        <input type="text" id="campoDireccion" class="form-control mt-2" placeholder="Ingrese la dirección de entrega" style="display: none;">
+
+                        <p>Subtotal: <span>₡@ViewBag.Subtotal</span></p>
+                        <p>Envío: <span id="tarifaEnvio">₡@ViewBag.TarifaEnvio</span></p>
+                        <p>Total + IVA: <span id="totalConIVA">₡@ViewBag.Total</span></p>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Método de pago</label>
+                        <select class="form-select" asp-for="MetodoPago">
+                            <option value="efectivo">Pago contra entrega</option>
+                            <option value="credit_card">Tarjeta de crédito</option>
+                            <option value="paypal">Paypal</option>
+                        </select>
+                    </div>
+
+                    <hr>
+
+                    <div class="d-grid">
+                        <button class="btn btn-outline-light" type="submit">Realizar Pedido</button>
+                    </div>
+                </form>
+            }
+        </div>
+    </div>
+</div>
+
+<script>
+    function actualizarEnvio() {
+        var direccionSelect = document.getElementById("direccionEntrega");
+        var campoDireccion = document.getElementById("campoDireccion");
+        var tarifaEnvio = document.getElementById("tarifaEnvio");
+        var totalConIVA = document.getElementById("totalConIVA");
+
+        var subtotal = parseFloat(@ViewBag.Subtotal);
+        var envio = parseFloat(@ViewBag.TarifaEnvio);
+
+        if (direccionSelect.value === "Retiro en el local") {
+            campoDireccion.style.display = "none";
+            tarifaEnvio.innerText = "₡0,00 (Envio Gratis)";
+            totalConIVA.innerText = "₡" + (subtotal + (subtotal * 0.13)).toFixed(2);
+        } else if (direccionSelect.value === "Servicio de mensajería") {
+            campoDireccion.style.display = "block";
+            tarifaEnvio.innerText = "₡" + envio.toFixed(2);
+            totalConIVA.innerText = "₡" + (subtotal + (subtotal * 0.13) + envio).toFixed(2);
+        } else {
+            campoDireccion.style.display = "none";
+            tarifaEnvio.innerText = "₡0,00";
+            totalConIVA.innerText = "₡" + subtotal.toFixed(2);
+        }
+    }
+
+    function prepararDireccion() {
+        var direccionSelect = document.getElementById("direccionEntrega");
+        var campoDireccion = document.getElementById("campoDireccion");
+        var direccionHidden = document.getElementById("direccionEntregaHidden");
+
+        if (direccionSelect.value === "Servicio de mensajería") {
+            direccionHidden.value = campoDireccion.value;
+        } else {
+            direccionHidden.value = direccionSelect.value;
+        }
+
+        return true; 
+    }
+</script>

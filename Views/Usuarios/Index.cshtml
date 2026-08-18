@@ -1,0 +1,72 @@
+﻿@model List<ApplicationUser>
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@{
+}
+
+<h2 class="text-center mb-5">Lista de Usuarios</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Numero de Telefono</th>
+            <th>Rol</th>
+            <th>Creado El</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var user in Model)
+        {
+            <tr>
+                <td>@(user.Nombre + " " + user.Apellido)</td>
+                <td>@user.Email</td>
+                <td>@user.PhoneNumber</td>
+                <td>
+                    @{
+                        var roles = await UserManager.GetRolesAsync(user);
+                        var rolesStr = String.Join(", ", roles);
+
+
+                        string color = "bg-secondary";
+                        if (roles.Contains("admin"))
+                        {
+                            color = "bg-danger";
+                        }
+                        else if (roles.Contains("client"))
+                        {
+                            color = "bg-info text-dark";
+                        }
+
+
+                        <span class="badge rounded-pill @color">@rolesStr</span>
+                    }
+                </td>
+                <td>@user.CreadoEn.ToString("MM/dd/yyyy")</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-controller="Usuarios" asp-action="Details"
+                        asp-route-id="@user.Id">Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<nav>
+    <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+            string active = "";
+            if (i == ViewBag.PageIndex) active = "active";
+
+            <li class="page-item @active">
+                <a class="page-link" asp-route-pageIndex="@i">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

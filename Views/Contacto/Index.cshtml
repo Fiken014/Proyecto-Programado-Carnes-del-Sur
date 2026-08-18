@@ -1,0 +1,145 @@
+﻿@{
+    ViewBag.Title = "Contacto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <!-- Logo -->
+    <div class="text-center mb-5 animate__animated animate__fadeInDown">
+        <img src="~/images/icon.png"
+             alt="Logo Carnes del Sur"
+             class="img-fluid rounded-circle shadow-lg border-danger border-3"
+             style="max-width: 250px; cursor: pointer;"
+             loading="lazy"
+             decoding="async">
+    </div>
+
+    <h1 class="mb-4 text-center"><i class="fas fa-address-book me-2"></i>Contáctanos</h1>
+
+    <div class="row g-4">
+        <!-- Información -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h3 class="card-title mb-4 text-danger"><i class="fas fa-info-circle me-2"></i>Información de contacto</h3>
+
+                    <div class="d-grid gap-3">
+                        <!-- Teléfono -->
+                        <div class="d-flex align-items-center hover-effect">
+                            <div class="icon-container bg-danger text-white rounded-circle p-3 me-3">
+                                <i class="fas fa-phone fa-2x"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1 fw-bold">Central telefónica</h5>
+                                <a href="tel:+50600000000" class="text-decoration-none text-dark">+506 0000-0000</a>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="d-flex align-items-center hover-effect">
+                            <div class="icon-container bg-danger text-white rounded-circle p-3 me-3">
+                                <i class="fas fa-envelope fa-2x"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1 fw-bold">Correo electrónico</h5>
+                                <a href="mailto:Example1@gmail.com" class="text-decoration-none text-dark">Example1@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Redes Sociales -->
+                        <div class="d-flex align-items-center hover-effect">
+                            <div class="icon-container bg-danger text-white rounded-circle p-3 me-3">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1 fw-bold">Síguenos en Facebook</h5>
+                                <a href="https://facebook.com/Carnes-del-Sur"
+                                   target="_blank"
+                                   class="text-decoration-none text-dark"
+                                   rel="noopener noreferrer">Carnes del Sur</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mapa -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h3 class="card-title mb-4 text-danger"><i class="fas fa-map-marked-alt me-2"></i>Nuestra ubicación</h3>
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1410.0984224255278!2d-84.05930139884855!3d9.899409584091323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1742347545956!5m2!1ses-419!2scr"
+                                style="border:0; border-radius: 8px;"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Ubicación física de Carnes del Sur">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        /* Estilos del logo */
+        .rounded-circle {
+            transition: all 0.3s ease;
+            border: 3px solid #dc3545 !important;
+        }
+
+            .rounded-circle:hover {
+                transform: scale(1.05) rotate(3deg);
+                box-shadow: 0 10px 20px rgba(220, 53, 69, 0.2);
+            }
+
+        /* Estilos generales */
+        .icon-container {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+        .hover-effect:hover .icon-container {
+            transform: scale(1.1);
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: #fff;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            }
+
+        .card-title {
+            color: #2c3e50;
+            font-weight: 700;
+            border-bottom: 3px solid #e9ecef;
+            padding-bottom: 0.5rem;
+        }
+
+        a {
+            color: #dc3545;
+            transition: color 0.2s ease;
+        }
+
+            a:hover {
+                color: #a71d2a;
+                text-decoration: none;
+            }
+    </style>
+
+    <!-- Animaciones CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+}

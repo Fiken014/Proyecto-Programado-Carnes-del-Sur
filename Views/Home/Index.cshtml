@@ -1,0 +1,51 @@
+﻿@model List<Producto>
+@{
+    ViewData["Title"] = "Home Page";
+    ViewData["HomePage"] = true;
+}
+
+<div style="background-color: #010101;">
+    <div class="container text-white py-5">
+        <div class="row align-items-center g-5">
+            <div class="col-md-6">
+                <h1 class="mb-5 display-2"><strong>Los mejores cortes del país</strong></h1>
+                <p>
+                    Descubre una gran variedad de carnes frescas, de alta calidad y de los mejores cortes, todo a precios inmejorables.
+                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="/images/hero.png" class="img-fluid" alt="hero" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="bg-light">
+    <div class="container py-4">
+        <h2 class="pb-4 text-center">Productos Nuevos</h2>
+
+        <div class="row mb-5 g-3">
+            @foreach(var producto in Model)
+            {
+                <div class="col-lg-3 col-md-6">
+                    <div class="rounded border shadow p-3 text-center h-100">
+                        <img src="/productos/@producto.ImageFileName" class="img-fluid" alt="..." 
+                            style="height: 180px; object-fit: contain"/>
+                        <hr />
+                        <h5 class="py-2">@producto.Nombre</h5>
+                        <p>
+                            Marca: @producto.Marca, Categoria: @producto.Categoria
+                        </p>
+                        <h4 class="mb-3">₡@(producto.Precio)</h4>
+                        <a class="btn btn-primary btn-sm mb-2" asp-controller="Tienda" 
+                            asp-action="Details" asp-route-id="@producto.Id" role="button">Detalles</a>
+                        <button type="button" class="btn btn-warning btn-sm mb-2" onclick="addToCart(this, @producto.Id)">
+                            Agregar al Carrito <i class="bi bi-cart4"></i>
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

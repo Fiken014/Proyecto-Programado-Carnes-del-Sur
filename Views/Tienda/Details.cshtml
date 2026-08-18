@@ -1,0 +1,41 @@
+﻿@model Producto
+@{
+}
+
+
+<div class="row">
+    <div class="col-md-4 text-center">
+        <img src="/productos/@Model.ImageFileName" class="img-fluid mb-3" alt="..." width="250" />
+    </div>
+    <div class="col-md-8">
+        <h3 class="mb-3">@Model.Nombre</h3>
+        <h3 class="mb-3">₡@(Model.Precio)</h3>
+        <button type="button" class="btn btn-warning btn-sm" onclick="addToCart(this, @Model.Id)">
+            Agregar al Carrito <i class="bi bi-cart4"></i>
+        </button>
+
+        <hr />
+
+        <div class="row mb-3">
+            <div class="col-sm-3 fw-bold">
+                Marca
+            </div>
+            <div class="col-sm-9">
+                @Model.Marca
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-sm-3 fw-bold">
+                Categoria
+            </div>
+            <div class="col-sm-9">
+                @Model.Categoria
+            </div>
+        </div>
+
+
+        <div class="fw-bold">Descripcion</div>
+        <div style="white-space: pre-line">@Model.Descripcion</div>
+    </div>
+</div>
