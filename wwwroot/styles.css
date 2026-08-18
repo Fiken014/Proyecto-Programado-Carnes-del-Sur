@@ -1,0 +1,41 @@
+﻿footer {
+    position: relative;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+    align-items: center;
+    flex-wrap: wrap; /* Permite ajuste en pantallas pequeñas */
+    max-width: 1200px; /* Limita el ancho máximo */
+    margin: 0 auto;
+    padding: 0 20px; /* Espaciado en los lados */
+}
+
+    .footer-content div {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Espacio entre elementos */
+    }
+
+    .footer-content img {
+        width: 30px;
+    }
+
+    .footer-content .social-icons a {
+        text-decoration: none;
+        color: #000;
+        font-size: 24px;
+    }
+
+        .footer-content .social-icons a:hover {
+            color: #007bff;
+        }
+
+.footer-location {
+    text-align: right;
+}
