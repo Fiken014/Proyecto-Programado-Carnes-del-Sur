@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\productos\AhumadasPremium\**" />
+    <Compile Remove="wwwroot\productos\CortesAvesPremium\**" />
+    <Compile Remove="wwwroot\productos\CortesCerdoPremium\**" />
+    <Compile Remove="wwwroot\productos\CortesCorderoPremium\**" />
+    <Compile Remove="wwwroot\productos\CortesResPremium\**" />
+    <Compile Remove="wwwroot\productos\EmbutidosPremium\**" />
+    <Content Remove="wwwroot\productos\AhumadasPremium\**" />
+    <Content Remove="wwwroot\productos\CortesAvesPremium\**" />
+    <Content Remove="wwwroot\productos\CortesCerdoPremium\**" />
+    <Content Remove="wwwroot\productos\CortesCorderoPremium\**" />
+    <Content Remove="wwwroot\productos\CortesResPremium\**" />
+    <Content Remove="wwwroot\productos\EmbutidosPremium\**" />
+    <EmbeddedResource Remove="wwwroot\productos\AhumadasPremium\**" />
+    <EmbeddedResource Remove="wwwroot\productos\CortesAvesPremium\**" />
+    <EmbeddedResource Remove="wwwroot\productos\CortesCerdoPremium\**" />
+    <EmbeddedResource Remove="wwwroot\productos\CortesCorderoPremium\**" />
+    <EmbeddedResource Remove="wwwroot\productos\CortesResPremium\**" />
+    <EmbeddedResource Remove="wwwroot\productos\EmbutidosPremium\**" />
+    <None Remove="wwwroot\productos\AhumadasPremium\**" />
+    <None Remove="wwwroot\productos\CortesAvesPremium\**" />
+    <None Remove="wwwroot\productos\CortesCerdoPremium\**" />
+    <None Remove="wwwroot\productos\CortesCorderoPremium\**" />
+    <None Remove="wwwroot\productos\CortesResPremium\**" />
+    <None Remove="wwwroot\productos\EmbutidosPremium\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\AdminOrdenes\Index.cshtml~RF1ccd544.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.20" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="sib_api_v3_sdk" Version="4.0.2" />
+  </ItemGroup>
+
+</Project>
