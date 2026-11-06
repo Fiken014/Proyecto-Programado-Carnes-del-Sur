@@ -51,7 +51,7 @@ namespace CarnesDelSurMVC.Services
                 CreadoEn = DateTime.Now,
             };
 
-            string initialPassword = "admin123";
+            string initialPassword = "";
 
 
             var result = await userManager.CreateAsync(user, initialPassword);
@@ -61,7 +61,7 @@ namespace CarnesDelSurMVC.Services
                 await userManager.AddToRoleAsync(user, "admin");
                 Console.WriteLine("Usuario administrador creado correctamente! Actualice su contraseña inicial!");
                 Console.WriteLine("Email: " + user.Email);
-                Console.WriteLine("Contraseña inicial: " + initialPassword);
+
             }
         }
 
